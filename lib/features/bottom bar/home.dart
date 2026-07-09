@@ -8,7 +8,16 @@ import '../widgets/product.dart';
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
 
-  final List<String> categoryName = ["Fruits", "Vegetables", "Meat", "Fish","Fruits", "Vegetables", "Meat", "Fish"];
+  final List<String> categoryName = [
+    "Fruits",
+    "Vegetables",
+    "Meat",
+    "Fish",
+    "Fruits",
+    "Vegetables",
+    "Meat",
+    "Fish",
+  ];
 
   final List<String> categoryImage = [
     AppAssets.enab,
